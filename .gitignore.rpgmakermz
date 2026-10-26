@@ -1,0 +1,56 @@
+# Prepared by Redwan Rahman @ RiceField Production
+# Repository: https://github.com/RiceField-Production/.github/blob/main/.gitignore.rpgmakermz
+
+# ==========================================
+# RPG Maker MZ Playtest & Saves
+# ==========================================
+# Ignore local playtest save files and folder
+save/
+*.rmmzsave
+*.rpgsave
+
+# ==========================================
+# Deployment & Build Outputs
+# ==========================================
+# Ignore exported builds (Itch.io / Butler targets)
+/deploy/
+/build/
+/dist/
+/output/
+
+# ==========================================
+# JavaScript & Development Tooling
+# ==========================================
+# Dependencies and logs (if using external JS tools/plugins)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==========================================
+# IDEs & Code Editors (VS Code / WebStorm)
+# ==========================================
+.idea/
+*.suo
+*.user
+*.userosv
+
+# Keep VS Code workspace settings if shared, ignore personal state
+.vscode/*.log
+.vscode/.react/
+
+# ==========================================
+# Operating System Files
+# ==========================================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
